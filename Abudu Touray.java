@@ -45,6 +45,15 @@ public class AbuduTouray {
 	}
 
 	AbuduTouray miObjeto = new AbuduTouray(edat, tel); 
+
+		public class SubClass extends AbuduTouray{
+
+		public SubClass(AbuduTouray abudutouray) {
+			
+			super(abudutouray);
+		}
+		private int clons;
+	}
 	
 	
 }
