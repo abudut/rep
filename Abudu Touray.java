@@ -43,6 +43,8 @@ public class AbuduTouray {
 	public void setTel(String tel) {
 		this.tel = tel;
 	}
+
+	AbuduTouray miObjeto = new AbuduTouray(edat, tel); 
 	
 	
 }
