@@ -1,7 +1,3 @@
-package M5_Git;
-
-import java.util.Objects;
-
 public class AbuduTouray {
 	 private int edat=20; private String tel="631182308";AbuduTouray(int e, String t) { edat=e; tel=t; }
 	 
@@ -31,5 +27,24 @@ public class AbuduTouray {
 	    return Objects.equals(edat, abudutouray.edat)
 	            && Objects.equals(tel, abudutouray.tel);
 	}
+
+	public int getEdat() {
+		return edat;
+	}
+
+	public void setEdat(int edat) {
+		this.edat = edat;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	
 	
 }
+
+
